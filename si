@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Introdución á Ciberseguridade</h1>
+        <p>A ciberseguridade é esencial no mundo dixital. Nesta páxina aprenderás sobre tipos de ataques e como protexerte deles.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Clases de ataques</h2>
+            <p>Os ciberdelincuentes empregan diversas técnicas para comprometer a seguridade de sistemas e datos.</p>
+            <ul>
+                <li><strong>Phishing:</strong> Correo ou mensaxe fraudulento para roubar datos.</li>
+                <li><strong>Malware:</strong> Programas maliciosos como virus, ransomware ou spyware.</li>
+                <li><strong>Ataques de forza bruta:</strong> Intentos repetidos de adiviñar contrasinais.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mecanismos de protección</h2>
+            <p>Implementar boas prácticas e ferramentas axuda a previr ataques.</p>
+            <ol>
+                <li>Usa contrasinais fortes e actúa con cautela ante correos sospeitosos.</li>
+                <li>Instala antivirus e mantén o software actualizado.</li>
+                <li>Habilita autenticación en dous pasos (2FA).</li>
+            </ol>
+        </section>
+
+        <div class="table-container">
+            <h3>Comparativa de Mecanismos</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mecanismo</th>
+                        <th>Vantaxes</th>
+                        <th>Inconvenientes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Antivirus</td>
+                        <td>Detección de ameazas coñecidas</td>
+                        <td>Non sempre detecta novas ameazas</td>
+                    </tr>
+                    <tr>
+                        <td>2FA</td>
+                        <td>Maior protección en inicios de sesión</td>
+                        <td>Depende dun dispositivo secundario</td>
+                    </tr>
+                    <tr>
+                        <td>Actualizacións</td>
+                        <td>Corrixe vulnerabilidades</td>
+                        <td>Requere tempo e planificación</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="images">
+            <h3>Exemplos Visuais</h3>
+            <img src="phishing.png" alt="Exemplo de ataque de phishing">
+            <img src="malware.png" alt="Diagrama dun malware">
+            <img src="2fa.png" alt="Protocolo de 2FA en acción">
+        </div>
+
+        <nav>
+            <h3>Ligazóns Internas</h3>
+            <ul>
+                <li><a href="#clases-ataques">Ir a Clases de ataques</a></li>
+                <li><a href="#mecanismos-proteccion">Ir a Mecanismos de protección</a></li>
+                <li><a href="#comparativa-mecanismos">Ir á Táboa Comparativa</a></li>
+            </ul>
+        </nav>
+    </main>
+
+    <footer>
+        <p>Creado por [O teu Nome]. Aprende máis en <a href="https://github.com" target="_blank">Github</a>.</p>
+    </footer>
+</body>
+</html>
